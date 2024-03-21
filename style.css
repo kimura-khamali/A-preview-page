@@ -1,0 +1,407 @@
+.paper-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1260px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.logo {
+  width: 6 <li><a href= "#" ><img src= "./images/logo.png" alt= "" ></a></li>0%;
+  height: 30px;
+}
+
+nav {
+  margin: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sign {
+  background-color: rgb(255, 0, 140);
+  color: black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+}
+
+.button1 {
+  display: flex;
+  gap: 4%;
+}
+
+.paperperson {
+  width: 100%;
+  height: 300px;
+}
+
+#apple {
+  display: flex;
+}
+
+.apple {
+  background-color: white;
+
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  /* padding: 10px,20px; */
+  padding: 30px;
+}
+
+.button2 {
+  background-color: black;
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+}
+
+.button3 {
+  background-color: black;
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+}
+
+.sourceimg {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.microsoft {
+  width: 10%;
+  height: 210px;
+}
+
+.trello {
+  width: 15%;
+  height: 100px;
+}
+
+.google {
+  width: 20%;
+  height: 190px;
+}
+
+.dropbox {
+  width: 20%;
+  height: 200px;
+}
+
+.slack {
+  width: 20%;
+  height: 200px;
+}
+
+#h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+}
+.interface {
+  display: grid;
+  grid-template-rows: table row;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20%;
+  grid-gap: 20px;
+  background-color: beige;
+  border-radius: 8px;
+  padding: 60px;
+  margin: 20px;
+}
+
+u {
+  color: red;
+}
+/* h1 {
+    align-items: center;
+} */
+
+.ditio {
+  display: grid;
+  grid-template-rows: table row;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.numbers {
+  display: grid;
+  grid-template-rows: table row;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* #us {
+    width:100% ;
+    height: 550px;
+} */
+
+.people {
+  display: flex;
+  gap: 20%;
+  gap: 25%;
+  background-color: beige;
+  border-radius: 8px;
+  padding: 80px;
+  margin: 20px;
+}
+
+.mobile {
+  width: 100%;
+  height: 250px;
+}
+.main {
+  display: flex;
+  gap: 20%;
+}
+
+.welcome {
+  display: grid;
+  grid-template-rows: table row;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20%;
+}
+
+#store {
+  display: flex;
+  gap: 20%;
+}
+#imgdito {
+  width: 100%;
+  height: 250px;
+}
+
+.footer {
+  display: grid;
+  grid-template-rows: table row;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10%;
+  background-color: black;
+  color: white;
+}
+
+.main1 {
+  background-color: black;
+  color: white;
+}
+
+.end {
+  display: flex;
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .paper-wrapper {
+    max-width: 1260px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    background-color: white;
+  }
+
+  nav ul {
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+  }
+  .button1 {
+    flex-direction: column;
+    gap: 2%;
+  }
+  .sourceimg {
+    flex-direction: column;
+    gap: 25%;
+  }
+
+  .microsoft {
+    width: 20%;
+    height: 100px;
+  }
+
+  .trello {
+    width: 50%;
+    height: 60px;
+  }
+
+  .google {
+    width: 50%;
+    height: 80px;
+  }
+
+  .dropbox {
+    width: 50%;
+    height: 90px;
+  }
+
+  .slack {
+    width: 50%;
+    height: 100px;
+  }
+  .interface {
+    display: grid;
+    grid-template-rows: table row;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20%;
+    margin: 10%;
+  }
+  .paperperson {
+    width: 100%;
+    height: 400px;
+  }
+  .ditio {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .numbers {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #us {
+    width: 100%;
+    height: 500px;
+  }
+  .people {
+    flex-direction: column;
+    margin: 20px;
+  }
+  /* #us {
+    width:auto ;
+    height:auto;
+} */
+  .welcome {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5%;
+  }
+  .footer {
+    display: grid;
+    grid-template-rows: table row;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5%;
+  }
+  #imgdito {
+    width: 100%;
+    height: 250px;
+  }
+  .main {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .paper-wrapper {
+    max-width: 1260px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    background-color: white;
+  }
+
+  nav ul {
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+  }
+  .button1 {
+    /* flex-direction: column; */
+    gap: 2%;
+  }
+  .sourceimg {
+    flex-direction: column;
+    gap: 25%;
+  }
+
+  .microsoft {
+    width: 20%;
+    height: 100px;
+  }
+
+  .trello {
+    width: 50%;
+    height: 60px;
+  }
+
+  .google {
+    width: 50%;
+    height: 80px;
+  }
+
+  .dropbox {
+    width: 50%;
+    height: 90px;
+  }
+
+  .slack {
+    width: 50%;
+    height: 100px;
+  }
+  .interface {
+    display: grid;
+    grid-template-rows: table row;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20%;
+    margin: 10%;
+  }
+  .paperperson {
+    width: 180%;
+    height: 400px;
+  }
+  .ditio {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .numbers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #us {
+    width: 100%;
+    height: 500px;
+  }
+  .people {
+    flex-direction: column;
+    margin: 5px;
+  }
+  /* #us {
+    width:50%;
+    height:10px;
+}  */
+  .welcome {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10%;
+  }
+  .footer {
+    display: grid;
+    grid-template-rows: table row;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5%;
+  }
+  #imgdito {
+    width: 100%;
+    height: 250px;
+  }
+  .main {
+    flex-direction: column;
+  }
+}
